@@ -1,2 +1,2 @@
 # Projetos
-Repositório de armazenamento de projetos diversos 
+Repositório de portfólio geral
