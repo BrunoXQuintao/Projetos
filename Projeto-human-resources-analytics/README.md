@@ -3,7 +3,7 @@
 ## Objetivo do Projeto
 <!--- --->
 
-O objetivo deste projeto foi desenvolver uma solução completa para armazenamento, gestão e automatização de fluxos de dados, utilizando tecnologias como Apache Airflow, Docker e Minio, além de explorar uma suíte poderosa de tecnologias para trabalhar com Análise de Dados e Machine Learning. A solução visa responder a questões importantes para permitir que uma empresa tenha conhecimento sobre:
+O objetivo deste projeto foi desenvolver uma solução completa para armazenamento, gestão e automatização de fluxos de dados, utilizando tecnologias como Apache Airflow, Docker e Minio, além de explorar uma suíte poderosa de tecnologias para trabalhar com Análise de Dados. A solução visa responder a questões importantes para permitir que uma empresa tenha conhecimento sobre:
 
 Quais são os fatores que influenciam para um colaborador deixar a empresa?
 Como reter pessoas?
@@ -23,7 +23,7 @@ Depois da infraestrutura devidamente criada e configurada, foram criados e model
 
 ## Resultados
 <!--- --->
-Na etapa de Análise Exploratória de Dados foram descobertos os seguintes insights importantes:
+Na Análise Exploratória de Dados foram descobertos os seguintes insights importantes:
 
 A empresa tem uma rotatividade de 24%;
 Podemos assumir que os empregados que mais deixam a empresa estão menos satisfeitos;
