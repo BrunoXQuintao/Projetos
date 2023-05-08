@@ -1,0 +1,22 @@
+# Projeto de Coleta de Dados de informações de diversos vendedores de livros antigos em todo o mundo
+
+## Objetivo do Projeto
+<!--- --->
+
+O objetivo foi coletar informações como nome do negócio, nome do vendedor, telefone, site, e-mail e endereço de cada vendedor. Para isso, foi utilizado o framework Scrapy em conjunto com o BeautifulSoup para fazer o parsing do HTML e remover caracteres extras presentes no endereço.
+
+O código começa com uma lista de URLs que contém todas as páginas do site que precisam ser varridas. Em seguida, é criada uma função clear_address que utiliza o BeautifulSoup para limpar os caracteres extras do endereço. Por fim, é criada a função parse que, por meio do Scrapy, seleciona as informações de cada vendedor em cada página e as armazena em um dicionário.
+
+Cada página é percorrida por meio da função parse, e caso haja mais páginas, o Scrapy segue o link para a próxima página e a função parse é chamada novamente para extrair informações de todos os vendedores nas páginas seguintes.
+
+## Tratamento de Dados
+<!--- --->
+Após a coleta de dados, foi necessário realizar o tratamento das informações para que ficassem mais adequadas à análise. Nessa etapa, foram renomeadas algumas colunas e as informações foram padronizadas para que fossem facilmente interpretáveis.
+
+## Análise de Dados
+<!--- --->
+Os dados coletados foram posteriormente analisados no Jupyter Notebook. Foram levantados alguns pontos interessantes, como a presença de um possível bot que bloqueava a varredura completa do site e o fato de que o maior número de cadastros de vendedores de livros antigos se concentra na Alemanha, sendo que a loja que mais aparece na lista é a Antiquariat Zorn.
+
+## Conclusão
+<!--- --->
+Este projeto pode ser útil para pesquisadores interessados em analisar dados de vendedores de livros antigos e entender melhor a distribuição geográfica e os tipos de negócio que atuam neste mercado. Além disso, o uso de ferramentas de web scraping e análise de dados pode ser aplicado em diversas áreas, trazendo insights importantes para tomadas de decisão.
