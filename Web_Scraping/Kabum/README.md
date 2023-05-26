@@ -1,4 +1,4 @@
-Web Scraping - Kabum Gaming Chairs
+## Web Scraping - Kabum Gaming Chairs
 <!--- --->
 This project aims to perform web scraping on the Kabum website to obtain information about gaming chairs. The extracted data is processed and stored for further analysis.
 
