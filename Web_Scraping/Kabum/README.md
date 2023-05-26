@@ -1,45 +1,41 @@
-# Web Scraping - Cadeiras Gamer da Kabum
+Web Scraping - Kabum Gaming Chairs
+<!--- --->
+This project aims to perform web scraping on the Kabum website to obtain information about gaming chairs. The extracted data is processed and stored for further analysis.
+
+## Project Objective:
 <!--- --->
 
-Este projeto tem como objetivo realizar o web scraping do site da Kabum para obter informações sobre cadeiras gamer. Os dados extraídos são tratados e armazenados para posterior análise.
+The objective of this project is to gather data on gaming chairs available on the Kabum website, including brand and price information. This data can be used for market analysis, price comparison, and other investigations related to the gaming chair market.
 
-## Objetivo do Projeto:
+## Data Processing:
 <!--- --->
 
-O objetivo deste projeto é obter dados sobre cadeiras gamer disponíveis no site da Kabum, incluindo informações de marca e preço. Esses dados podem ser utilizados para análise de mercado, comparação de preços e outras investigações relacionadas ao mercado de cadeiras gamer.
+After the data extraction, it undergoes processing to ensure data consistency and quality. In this project, data processing involves the following steps:
 
-
-## Tratamento de Dados:
+Special character cleaning: The brand and price values undergo a special character removal process using the unidecode library.
+Column renaming: The column names are renamed to 'Brand' and 'Price' for better data understanding.
+Output format: The processed data is stored in a CSV file with ';' as the separator and UTF-8 encoding.
+Data Analysis:
 <!--- --->
 
-Após a extração dos dados, é realizado um tratamento para garantir a consistência e qualidade das informações. Neste projeto, o tratamento de dados consiste nas seguintes etapas:
-1. Limpeza de caracteres especiais: os valores de marca e preço são submetidos a um processo de remoção de caracteres especiais utilizando a biblioteca unidecode.
-2. Renomeação de colunas: os nomes das colunas são renomeados para 'Marca' e 'Valor' para uma melhor compreensão dos dados.
-3. Formato de saída: os dados tratados são armazenados em um arquivo CSV com o separador ';' e a codificação UTF-8.
+After the data processing, it becomes possible to perform additional analysis and investigations. Some examples of analysis that can be done with the data obtained in this project are:
 
-
-## Análise de Dados:
+Descriptive statistics: Calculate basic statistics such as mean, median, and standard deviation of gaming chair prices.
+Brand comparison: Identify the most popular or expensive brands based on the collected data.
+Price trends: Observe price variations across pages or over time to identify market trends.
 <!--- --->
 
-Após o tratamento dos dados, é possível realizar análises e investigações adicionais. Alguns exemplos de análises que podem ser feitas com os dados obtidos neste projeto são:
-1. Estatísticas descritivas: calcular estatísticas básicas, como média, mediana e desvio padrão dos preços das cadeiras gamer.
-2. Comparação de marcas: identificar as marcas mais populares ou mais caras com base nos dados coletados.
-3. Tendências de preços: observar variações de preço ao longo das páginas ou ao longo do tempo para identificar tendências de mercado.
+## Technologies Used:
 <!--- --->
 
-## Tecnologia Utilizada:
+Python: The programming language used to develop the web scraping script and data manipulation.
+Requests library: Used to make HTTP requests to the Kabum website and obtain page content.
+BeautifulSoup library: Used to parse HTML and extract desired information.
+Pandas library: Used for data manipulation and analysis, including DataFrame creation and writing to a CSV file.
+Math library: Used for mathematical calculations, such as rounding the number of pages.
+Unidecode library: Used to remove special characters from the data.
+
+## Conclusion:
 <!--- --->
 
-- Python: linguagem de programação utilizada para desenvolver o script de web scraping e manipulação de dados.
-- Biblioteca requests: utilizada para fazer solicitações HTTP ao site da Kabum e obter o conteúdo das páginas.
-- Biblioteca BeautifulSoup: usada para analisar o HTML e extrair as informações desejadas.
-- Biblioteca pandas: utilizada para manipulação e análise dos dados, incluindo a criação do DataFrame e a escrita em arquivo CSV.
-- Biblioteca math: utilizada para cálculos matemáticos, como o arredondamento do número de páginas.
-- Biblioteca unidecode: utilizada para remover caracteres especiais dos dados.
-
-## Conclusão:
-<!--- --->
-
-Este projeto demonstra como realizar o web scraping de um site específico para obter dados relevantes. Através do tratamento adequado dos dados extraídos, é possível realizar análises e obter insights valiosos sobre o mercado de cadeiras gamer. Porém, é importante ressaltar que o uso de web scraping deve ser feito em conformidade com os termos de uso do site alvo e com as leis e regulamentações aplicáveis.
-
-
+This project demonstrates how to perform web scraping on a specific website to obtain relevant data. Through proper data processing, it becomes possible to perform analysis and gain valuable insights into the gaming chair market. However, it is important to note that the use of web scraping should be done in compliance with the terms of use of the target website and applicable laws and regulations.
